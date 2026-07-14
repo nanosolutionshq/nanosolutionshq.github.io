@@ -1,6 +1,6 @@
 # Nano Solutions — AI-visibility audit site
 
-Static GitHub Pages site and visual-design source for **Nano Solutions**, an AI-search visibility audit service for local businesses. The site is designed to be read equally well by buyers, search engines, and AI crawlers.
+Static GitHub Pages site and visual-design source for **Nano Solutions**, an AI-search visibility audit service for businesses across markets. The site is designed to be read equally well by buyers, search engines, and AI crawlers.
 
 **Live:** https://nanosolutionshq.github.io/
 
@@ -9,6 +9,7 @@ Static GitHub Pages site and visual-design source for **Nano Solutions**, an AI-
 | Path | Purpose |
 |---|---|
 | `index.html` | Homepage: diagnostic hero, proof, process, FAQ, lead form |
+| `free-check/index.html` | Focused, market-neutral landing page for free-check requests |
 | `study.html` | Study 01 article with article-specific social metadata and evidence visual |
 | `sample-audit.html` | Public, seven-page illustrative audit with a downloadable PDF counterpart |
 | `privacy.html` | Plain-language analytics and contact-request notice |
@@ -43,11 +44,11 @@ Static GitHub Pages site and visual-design source for **Nano Solutions**, an AI-
 
 ## Lead form
 
-The free-check form posts to FormSubmit and preserves its existing subject, routing, spam-trap, and confirmation fields. Form handling and the provider's stated retention are disclosed on `privacy.html`.
+The free-check form posts to FormSubmit and routes successful requests to the noindexed confirmation page. Form handling and retention are disclosed on `privacy.html`.
 
 ## Public sample audit
 
-`sample-audit.html` is a responsive, semantic seven-page demonstration using a clearly fictional business and illustrative values. `assets/sample/nano-solutions-sample-ai-visibility-audit.pdf` is its print-ready counterpart. The public sample shows deliverable quality and outcome-level guidance while withholding private evidence, repeatable procedures, and implementation detail.
+`sample-audit.html` is a responsive, semantic seven-page demonstration using a clearly fictional business and illustrative findings. `assets/sample/nano-solutions-sample-ai-visibility-audit.pdf` is its print-ready counterpart. The public sample shows deliverable quality, customer-facing findings, and outcome-level guidance.
 
 ## Analytics and privacy
 

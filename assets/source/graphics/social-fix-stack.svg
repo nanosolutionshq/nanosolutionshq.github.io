@@ -27,7 +27,7 @@
       <rect width="952" height="142" rx="22" fill="#22272F" stroke="#8A93A0" stroke-opacity=".24"/>
       <text x="32" y="57" fill="#22D3EE" font-size="24" font-weight="800">01</text>
       <text x="96" y="54" fill="#F7F8FA" font-size="29" font-weight="700">Where you appear</text>
-      <text x="96" y="94" fill="#8A93A0" font-size="19">A platform-by-platform visibility snapshot.</text>
+      <text x="96" y="94" fill="#8A93A0" font-size="19">A clear view of current recommendation visibility.</text>
     </g>
     <g transform="translate(64 576)">
       <rect width="952" height="142" rx="22" fill="#22272F" stroke="#8A93A0" stroke-opacity=".24"/>

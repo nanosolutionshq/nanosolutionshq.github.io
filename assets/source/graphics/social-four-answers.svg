@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1350" viewBox="0 0 1080 1350" role="img" aria-labelledby="title desc">
-  <title id="title">Four AIs, four different answers</title>
+  <title id="title">Same question, different answers</title>
   <desc id="desc">In a dated Gilbert test, ChatGPT named Auri Aesthetics, Perplexity named Cleanse Modern Day Spa, Gemini named SkinWay Medspa, and Google AI named DrSkin.</desc>
   <defs>
     <pattern id="grid" width="42" height="42" patternUnits="userSpaceOnUse">
@@ -20,8 +20,8 @@
   </g>
   <text x="132" y="94" fill="#F7F8FA" font-family="Segoe UI, Arial, sans-serif" font-size="27" font-weight="700">Nano Solutions</text>
   <text x="64" y="205" fill="#22D3EE" font-family="Segoe UI, Arial, sans-serif" font-size="19" font-weight="750" letter-spacing="3.2">STUDY 01 · GILBERT, AZ</text>
-  <text x="64" y="300" fill="#F7F8FA" font-family="Segoe UI, Arial, sans-serif" font-size="70" font-weight="750" letter-spacing="-2.4">4 AIs.</text>
-  <text x="64" y="378" fill="#F7F8FA" font-family="Segoe UI, Arial, sans-serif" font-size="70" font-weight="750" letter-spacing="-2.4">4 different answers.</text>
+  <text x="64" y="300" fill="#F7F8FA" font-family="Segoe UI, Arial, sans-serif" font-size="70" font-weight="750" letter-spacing="-2.4">Same question.</text>
+  <text x="64" y="378" fill="#F7F8FA" font-family="Segoe UI, Arial, sans-serif" font-size="70" font-weight="750" letter-spacing="-2.4">Different answers.</text>
   <text x="64" y="428" fill="#8A93A0" font-family="Segoe UI, Arial, sans-serif" font-size="23">Same buyer question. Same city. Dated snapshot.</text>
   <g font-family="Segoe UI, Arial, sans-serif">
     <g transform="translate(64 488)">

@@ -1,6 +1,6 @@
 # Nano Solutions
 
-> Nano Solutions provides AI-visibility (AEO/GEO) audits for local businesses. We assess current visibility across ChatGPT, Gemini, Perplexity, and Google's AI, provide platform-by-platform findings and competitor context, and deliver prioritized recommendations. Contact: nanosolutionshq@gmail.com
+> Nano Solutions provides AI-visibility (AEO/GEO) audits for businesses across markets. We assess current visibility across relevant AI assistants, provide clear findings and competitor context, and deliver prioritized recommendations. Contact: nanosolutionshq@gmail.com
 
 Key facts:
 
@@ -11,11 +11,11 @@ Key facts:
 
 ## Services
 
-- [Free AI-visibility check](https://nanosolutionshq.github.io/#free-check): a concise review of current visibility across the major AI assistants for a business and its market. Free.
-- [How it works](https://nanosolutionshq.github.io/#how-it-works): free check → full audit with platform-by-platform findings and priorities → optional implementation and follow-up review.
-- [Proof — the four-city test](https://nanosolutionshq.github.io/#proof): live cross-engine study results showing no cross-engine consensus.
-- [Study 01 — full article](https://nanosolutionshq.github.io/study): a point-in-time comparison of public AI recommendations across four Arizona markets, with a four-assistant Gilbert result and independent market-context citations.
-- [Sample AI-visibility audit](https://nanosolutionshq.github.io/sample-audit): a seven-page, clearly fictional example showing the deliverable's executive diagnosis, plain-English findings, customer impact, and outcome-level roadmap. Illustrative figures only; private methods and client evidence are withheld.
+- [Free AI-visibility check](https://nanosolutionshq.github.io/free-check/): a concise, human-reviewed snapshot of current AI visibility for a business and its market. Free.
+- [How it works](https://nanosolutionshq.github.io/#how-it-works): free check → full audit with clear findings and priorities → optional implementation and follow-up review.
+- [Proof — Study 01](https://nanosolutionshq.github.io/#proof): a dated cross-engine field study showing no shared top recommendation.
+- [Study 01 — full article](https://nanosolutionshq.github.io/study): a dated Arizona local-market case study. Its Gilbert med-spa result is one example of cross-platform variation, not a service-area or industry specialization.
+- [Sample AI-visibility audit](https://nanosolutionshq.github.io/sample-audit): a seven-page, clearly fictional example showing the deliverable's executive diagnosis, plain-English findings, customer impact, and outcome-level roadmap. Illustrative figures only; no client data.
 - [Sample audit PDF](https://nanosolutionshq.github.io/assets/sample/nano-solutions-sample-ai-visibility-audit.pdf): downloadable version of the public sample.
 
 ## FAQ

@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
-  <title id="title">Study 01: four AIs, four different answers</title>
-  <desc id="desc">The same local-business question in Gilbert, Arizona produced four different top answers.</desc>
+  <title id="title">Study 01: same question, different answers</title>
+  <desc id="desc">The same local-business question in Gilbert, Arizona produced different top answers across AI assistants.</desc>
   <defs>
     <pattern id="grid" width="38" height="38" patternUnits="userSpaceOnUse">
       <path d="M38 0H0V38" fill="none" stroke="#8A93A0" stroke-opacity=".11" stroke-width="1"/>
@@ -20,7 +20,7 @@
   </g>
   <text x="132" y="76" fill="#14161A" font-family="Segoe UI, Arial, sans-serif" font-size="25" font-weight="700" letter-spacing="-.6">Nano Solutions</text>
   <text x="66" y="163" fill="#22D3EE" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="750" letter-spacing="3">STUDY 01 · GILBERT, ARIZONA</text>
-  <text x="66" y="246" fill="#14161A" font-family="Segoe UI, Arial, sans-serif" font-size="62" font-weight="750" letter-spacing="-2.2">4 AIs. 4 different answers.</text>
+  <text x="66" y="246" fill="#14161A" font-family="Segoe UI, Arial, sans-serif" font-size="62" font-weight="750" letter-spacing="-2.2">Same question. Different answers.</text>
   <text x="66" y="292" fill="#8A93A0" font-family="Segoe UI, Arial, sans-serif" font-size="23">Same buyer question. Same city. Dated snapshot.</text>
   <g font-family="Segoe UI, Arial, sans-serif">
     <g transform="translate(66 344)">

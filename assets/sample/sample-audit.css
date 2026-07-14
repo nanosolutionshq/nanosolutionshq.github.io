@@ -383,6 +383,7 @@ a {
 .cover .report-footer {
   position: relative;
   z-index: 2;
+  inset: auto;
   border-color: var(--line-dark);
   color: var(--gray);
 }
@@ -543,8 +544,8 @@ a {
 }
 
 .directional-score .score strong {
-  font-size: 35pt;
-  letter-spacing: -0.06em;
+  font-size: 24pt;
+  letter-spacing: -0.04em;
   line-height: 1;
 }
 
@@ -629,9 +630,9 @@ a {
 .exposure-strip strong {
   display: block;
   margin-top: 0.08in;
-  font-size: 19pt;
+  font-size: 15pt;
   letter-spacing: -0.04em;
-  line-height: 1;
+  line-height: 1.08;
 }
 
 .exposure-strip p {
@@ -887,6 +888,11 @@ a {
   margin-top: 0.28in;
 }
 
+.plan-page .timeline,
+.plan-page .success-panel {
+  margin-top: 0.23in;
+}
+
 /* Close */
 
 .close-grid {
@@ -896,11 +902,29 @@ a {
   margin-top: 0.28in;
 }
 
+.closing-page .page-body {
+  padding-top: 0.24in;
+}
+
+.closing-page .close-grid {
+  margin-top: 0.18in;
+}
+
 .limit-card,
 .deliverable-card {
   padding: 0.22in;
   border: 1px solid var(--line);
   border-radius: 9px;
+}
+
+.closing-page .limit-card,
+.closing-page .deliverable-card {
+  padding: 0.18in;
+}
+
+.closing-page .check-list li + li,
+.closing-page .caveat-list li + li {
+  margin-top: 0.06in;
 }
 
 .limit-card h2,
@@ -924,6 +948,11 @@ a {
   border-radius: 11px;
   background: var(--ink);
   color: var(--paper);
+}
+
+.closing-page .closing-cta {
+  margin-top: 0.18in;
+  padding: 0.26in;
 }
 
 .closing-cta::after {
@@ -955,6 +984,15 @@ a {
   max-width: 5.4in;
   margin: 0.12in 0 0;
   color: var(--gray);
+}
+
+.closing-page .closing-cta p {
+  margin-top: 0.09in;
+}
+
+.closing-page .cta-link {
+  min-height: 0.4in;
+  margin-top: 0.12in;
 }
 
 .cta-link {

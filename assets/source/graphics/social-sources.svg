@@ -23,28 +23,28 @@
     <g transform="translate(64 458)">
       <rect width="368" height="170" rx="22" fill="#22272F"/>
       <circle cx="34" cy="38" r="7" fill="#22D3EE"/>
-      <text x="58" y="45" fill="#8A93A0" font-size="17" font-weight="750" letter-spacing="1.7">ASSISTANT 01</text>
+      <text x="58" y="45" fill="#8A93A0" font-size="17" font-weight="750" letter-spacing="1.7">SELECTED AI SURFACE</text>
       <text x="34" y="100" fill="#F7F8FA" font-size="30" font-weight="680">Visibility detected</text>
       <text x="34" y="137" fill="#8A93A0" font-size="19">Your business appears</text>
     </g>
     <g transform="translate(648 458)">
       <rect width="368" height="170" rx="22" fill="#22272F"/>
       <circle cx="34" cy="38" r="7" fill="#22D3EE"/>
-      <text x="58" y="45" fill="#8A93A0" font-size="17" font-weight="750" letter-spacing="1.7">ASSISTANT 02</text>
+      <text x="58" y="45" fill="#8A93A0" font-size="17" font-weight="750" letter-spacing="1.7">SELECTED AI SURFACE</text>
       <text x="34" y="100" fill="#F7F8FA" font-size="30" font-weight="680">Competitor surfaced</text>
       <text x="34" y="137" fill="#8A93A0" font-size="19">A different winner appears</text>
     </g>
     <g transform="translate(64 914)">
       <rect width="368" height="170" rx="22" fill="#22272F"/>
       <circle cx="34" cy="38" r="7" fill="#22D3EE"/>
-      <text x="58" y="45" fill="#8A93A0" font-size="17" font-weight="750" letter-spacing="1.7">ASSISTANT 03</text>
+      <text x="58" y="45" fill="#8A93A0" font-size="17" font-weight="750" letter-spacing="1.7">SELECTED AI SURFACE</text>
       <text x="34" y="100" fill="#F7F8FA" font-size="30" font-weight="680">No clear mention</text>
       <text x="34" y="137" fill="#8A93A0" font-size="19">A visibility gap remains</text>
     </g>
     <g transform="translate(648 914)">
       <rect width="368" height="170" rx="22" fill="#22272F"/>
       <circle cx="34" cy="38" r="7" fill="#22D3EE"/>
-      <text x="58" y="45" fill="#8A93A0" font-size="17" font-weight="750" letter-spacing="1.7">ASSISTANT 04</text>
+      <text x="58" y="45" fill="#8A93A0" font-size="17" font-weight="750" letter-spacing="1.7">SELECTED AI SURFACE</text>
       <text x="34" y="100" fill="#F7F8FA" font-size="30" font-weight="680">Another top pick</text>
       <text x="34" y="137" fill="#8A93A0" font-size="19">The market shifts again</text>
     </g>
@@ -60,5 +60,5 @@
   </g>
   <text x="64" y="1186" fill="#14161A" font-family="Segoe UI, Arial, sans-serif" font-size="29" font-weight="700">Different platforms → different consideration sets.</text>
   <text x="64" y="1230" fill="#8A93A0" font-family="Segoe UI, Arial, sans-serif" font-size="21">The audit measures where you appear, where you do not, and who appears instead.</text>
-  <text x="64" y="1292" fill="#8A93A0" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="600" letter-spacing="1.2">PLATFORM-BY-PLATFORM DIAGNOSIS · NO RANKING GUARANTEE</text>
+  <text x="64" y="1292" fill="#8A93A0" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="600" letter-spacing="1.2">ILLUSTRATIVE PATTERN · RELEVANT SURFACES VARY · NO RANKING GUARANTEE</text>
 </svg>

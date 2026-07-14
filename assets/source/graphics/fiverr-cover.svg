@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1280" height="769" viewBox="0 0 1280 769" role="img" aria-labelledby="title desc">
   <title id="title">Does AI recommend your business?</title>
-  <desc id="desc">AI-visibility audit service with a live Gilbert example showing four AI engines and four different answers.</desc>
+  <desc id="desc">AI-visibility audit service with illustrative cross-platform result states.</desc>
   <defs>
     <pattern id="grid" width="38" height="38" patternUnits="userSpaceOnUse">
       <path d="M38 0H0V38" fill="none" stroke="#8A93A0" stroke-opacity=".07" stroke-width="1"/>
@@ -24,41 +24,41 @@
   <text x="64" y="328" fill="#F7F8FA" font-family="Segoe UI, Arial, sans-serif" font-size="62" font-weight="750" letter-spacing="-2.1">your business?</text>
   <rect x="64" y="363" width="88" height="5" rx="2.5" fill="#22D3EE"/>
   <text x="64" y="418" fill="#8A93A0" font-family="Segoe UI, Arial, sans-serif" font-size="23">See which engines name you, which do not,</text>
-  <text x="64" y="452" fill="#8A93A0" font-family="Segoe UI, Arial, sans-serif" font-size="23">and what evidence they trust.</text>
+  <text x="64" y="452" fill="#8A93A0" font-family="Segoe UI, Arial, sans-serif" font-size="23">and what to prioritize next.</text>
   <g transform="translate(64 527)" font-family="Segoe UI, Arial, sans-serif">
     <rect width="484" height="142" rx="22" fill="#22272F" stroke="#8A93A0" stroke-opacity=".25"/>
     <text x="26" y="37" fill="#22D3EE" font-size="15" font-weight="750" letter-spacing="2.1">YOUR DELIVERABLE</text>
-    <text x="26" y="77" fill="#F7F8FA" font-size="22" font-weight="650">Engine-by-engine findings</text>
-    <text x="26" y="108" fill="#F7F8FA" font-size="22" font-weight="650">Evidence trail + prioritized fixes</text>
+    <text x="26" y="77" fill="#F7F8FA" font-size="22" font-weight="650">Clear visibility findings</text>
+    <text x="26" y="108" fill="#F7F8FA" font-size="22" font-weight="650">Priority roadmap + clear next steps</text>
   </g>
   <g transform="translate(630 166)" font-family="Segoe UI, Arial, sans-serif">
     <rect width="598" height="503" rx="28" fill="#22272F" stroke="#8A93A0" stroke-opacity=".28"/>
-    <text x="32" y="48" fill="#22D3EE" font-size="16" font-weight="750" letter-spacing="2.2">LIVE EXAMPLE · GILBERT, AZ</text>
-    <text x="32" y="83" fill="#8A93A0" font-size="18">Same buyer question. Four different answers.</text>
+    <text x="32" y="48" fill="#22D3EE" font-size="16" font-weight="750" letter-spacing="2.2">ILLUSTRATIVE RESULT STATES</text>
+    <text x="32" y="83" fill="#8A93A0" font-size="18">Selected examples · scope varies by business.</text>
     <g transform="translate(32 111)">
       <rect width="534" height="78" rx="14" fill="#14161A"/>
       <circle cx="24" cy="26" r="5" fill="#22D3EE"/>
       <text x="42" y="32" fill="#8A93A0" font-size="14" font-weight="700" letter-spacing="1.3">CHATGPT</text>
-      <text x="24" y="62" fill="#F7F8FA" font-size="22" font-weight="650">Auri Aesthetics</text>
+      <text x="24" y="62" fill="#F7F8FA" font-size="22" font-weight="650">Your business appears</text>
     </g>
     <g transform="translate(32 201)">
       <rect width="534" height="78" rx="14" fill="#14161A"/>
       <circle cx="24" cy="26" r="5" fill="#22D3EE"/>
       <text x="42" y="32" fill="#8A93A0" font-size="14" font-weight="700" letter-spacing="1.3">PERPLEXITY</text>
-      <text x="24" y="62" fill="#F7F8FA" font-size="22" font-weight="650">Cleanse Modern Day Spa</text>
+      <text x="24" y="62" fill="#F7F8FA" font-size="22" font-weight="650">Competitor appears</text>
     </g>
     <g transform="translate(32 291)">
       <rect width="534" height="78" rx="14" fill="#14161A"/>
       <circle cx="24" cy="26" r="5" fill="#22D3EE"/>
       <text x="42" y="32" fill="#8A93A0" font-size="14" font-weight="700" letter-spacing="1.3">GEMINI</text>
-      <text x="24" y="62" fill="#F7F8FA" font-size="22" font-weight="650">SkinWay Medspa</text>
+      <text x="24" y="62" fill="#F7F8FA" font-size="22" font-weight="650">No clear mention</text>
     </g>
     <g transform="translate(32 381)">
       <rect width="534" height="78" rx="14" fill="#14161A"/>
       <circle cx="24" cy="26" r="5" fill="#22D3EE"/>
       <text x="42" y="32" fill="#8A93A0" font-size="14" font-weight="700" letter-spacing="1.3">GOOGLE AI</text>
-      <text x="24" y="62" fill="#F7F8FA" font-size="22" font-weight="650">DrSkin</text>
+      <text x="24" y="62" fill="#F7F8FA" font-size="22" font-weight="650">Different business surfaced</text>
     </g>
   </g>
-  <text x="64" y="730" fill="#8A93A0" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="600" letter-spacing="1.4">DATED DIAGNOSTIC · NO RANKING GUARANTEES</text>
+  <text x="64" y="730" fill="#8A93A0" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="600" letter-spacing="1.4">ILLUSTRATIVE EXAMPLES · RELEVANT SURFACES VARY · NO RANKING GUARANTEES</text>
 </svg>
