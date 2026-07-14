@@ -1,0 +1,23 @@
+{
+  "name": "Nano Solutions",
+  "short_name": "Nano Solutions",
+  "description": "AI-visibility audits for local businesses.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#14161A",
+  "theme_color": "#14161A",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "/favicon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}

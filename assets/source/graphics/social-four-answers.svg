@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1350" viewBox="0 0 1080 1350" role="img" aria-labelledby="title desc">
+  <title id="title">Four AIs, four different answers</title>
+  <desc id="desc">In a dated Gilbert test, ChatGPT named Auri Aesthetics, Perplexity named Cleanse Modern Day Spa, Gemini named SkinWay Medspa, and Google AI named DrSkin.</desc>
+  <defs>
+    <pattern id="grid" width="42" height="42" patternUnits="userSpaceOnUse">
+      <path d="M42 0H0V42" fill="none" stroke="#8A93A0" stroke-opacity=".07" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="1080" height="1350" fill="#14161A"/>
+  <rect width="1080" height="1350" fill="url(#grid)"/>
+  <g fill="none" stroke="#8A93A0" stroke-opacity=".16" stroke-width="2">
+    <circle cx="1010" cy="90" r="280"/>
+    <circle cx="1010" cy="90" r="205"/>
+    <circle cx="1010" cy="90" r="130"/>
+  </g>
+  <path d="M1010-190a280 280 0 0 1 272 216" fill="none" stroke="#22D3EE" stroke-width="6" stroke-linecap="round"/>
+  <g transform="translate(64 54) scale(.5)">
+    <path fill="#F7F8FA" d="M16 80V32h17v8c6-7 14-11 24-11 19 0 29 12 29 31v20H69V62c0-12-5-17-15-17-13 0-21 8-21 22v13H16Z"/>
+    <circle cx="102" cy="72" r="8" fill="#22D3EE"/>
+  </g>
+  <text x="132" y="94" fill="#F7F8FA" font-family="Segoe UI, Arial, sans-serif" font-size="27" font-weight="700">Nano Solutions</text>
+  <text x="64" y="205" fill="#22D3EE" font-family="Segoe UI, Arial, sans-serif" font-size="19" font-weight="750" letter-spacing="3.2">STUDY 01 · GILBERT, AZ</text>
+  <text x="64" y="300" fill="#F7F8FA" font-family="Segoe UI, Arial, sans-serif" font-size="70" font-weight="750" letter-spacing="-2.4">4 AIs.</text>
+  <text x="64" y="378" fill="#F7F8FA" font-family="Segoe UI, Arial, sans-serif" font-size="70" font-weight="750" letter-spacing="-2.4">4 different answers.</text>
+  <text x="64" y="428" fill="#8A93A0" font-family="Segoe UI, Arial, sans-serif" font-size="23">Same buyer question. Same city. Dated snapshot.</text>
+  <g font-family="Segoe UI, Arial, sans-serif">
+    <g transform="translate(64 488)">
+      <rect width="952" height="150" rx="22" fill="#22272F" stroke="#8A93A0" stroke-opacity=".25"/>
+      <circle cx="38" cy="43" r="7" fill="#22D3EE"/>
+      <text x="63" y="50" fill="#8A93A0" font-size="18" font-weight="750" letter-spacing="2">CHATGPT</text>
+      <text x="38" y="111" fill="#F7F8FA" font-size="38" font-weight="680">Auri Aesthetics</text>
+    </g>
+    <g transform="translate(64 658)">
+      <rect width="952" height="150" rx="22" fill="#22272F" stroke="#8A93A0" stroke-opacity=".25"/>
+      <circle cx="38" cy="43" r="7" fill="#22D3EE"/>
+      <text x="63" y="50" fill="#8A93A0" font-size="18" font-weight="750" letter-spacing="2">PERPLEXITY</text>
+      <text x="38" y="111" fill="#F7F8FA" font-size="36" font-weight="680">Cleanse Modern Day Spa</text>
+    </g>
+    <g transform="translate(64 828)">
+      <rect width="952" height="150" rx="22" fill="#22272F" stroke="#8A93A0" stroke-opacity=".25"/>
+      <circle cx="38" cy="43" r="7" fill="#22D3EE"/>
+      <text x="63" y="50" fill="#8A93A0" font-size="18" font-weight="750" letter-spacing="2">GEMINI</text>
+      <text x="38" y="111" fill="#F7F8FA" font-size="38" font-weight="680">SkinWay Medspa</text>
+    </g>
+    <g transform="translate(64 998)">
+      <rect width="952" height="150" rx="22" fill="#22272F" stroke="#8A93A0" stroke-opacity=".25"/>
+      <circle cx="38" cy="43" r="7" fill="#22D3EE"/>
+      <text x="63" y="50" fill="#8A93A0" font-size="18" font-weight="750" letter-spacing="2">GOOGLE AI</text>
+      <text x="38" y="111" fill="#F7F8FA" font-size="38" font-weight="680">DrSkin</text>
+    </g>
+  </g>
+  <rect x="64" y="1210" width="108" height="5" rx="2.5" fill="#22D3EE"/>
+  <text x="64" y="1263" fill="#8A93A0" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="600" letter-spacing="1.2">AI ANSWERS CHANGE · AUDIT THE CURRENT EVIDENCE</text>
+</svg>

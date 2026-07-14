@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-labelledby="title desc">
+  <title id="title">Nano Solutions scan-ring mark</title>
+  <desc id="desc">The n dot monogram centered inside restrained diagnostic scan rings.</desc>
+  <defs>
+    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M24 0H0V24" fill="none" stroke="#8A93A0" stroke-opacity=".10" stroke-width="1"/>
+    </pattern>
+    <clipPath id="tile"><rect width="256" height="256" rx="52"/></clipPath>
+  </defs>
+  <rect width="256" height="256" rx="52" fill="#14161A"/>
+  <g clip-path="url(#tile)">
+    <rect width="256" height="256" fill="url(#grid)"/>
+    <g fill="none" stroke="#8A93A0" stroke-opacity=".26" stroke-width="1.5">
+      <circle cx="128" cy="128" r="86"/>
+      <circle cx="128" cy="128" r="60"/>
+      <circle cx="128" cy="128" r="34"/>
+      <path d="M22 128h212M128 22v212" stroke-opacity=".14"/>
+    </g>
+    <path d="M128 42a86 86 0 0 1 85 73" fill="none" stroke="#22D3EE" stroke-width="4" stroke-linecap="round"/>
+    <circle cx="213" cy="115" r="5" fill="#22D3EE"/>
+  </g>
+  <g transform="translate(78 83) scale(.85)">
+    <path fill="#F7F8FA" d="M0 80V32h17v8c6-7 14-11 24-11 19 0 29 12 29 31v20H53V62c0-12-5-17-15-17-13 0-21 8-21 22v13H0Z"/>
+    <circle cx="86" cy="72" r="8" fill="#22D3EE"/>
+  </g>
+</svg>

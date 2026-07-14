@@ -1,0 +1,29 @@
+# Nano Solutions
+
+> Nano Solutions provides AI-visibility (AEO/GEO) audits for local businesses. We assess current visibility across ChatGPT, Gemini, Perplexity, and Google's AI, provide platform-by-platform findings and competitor context, and deliver prioritized recommendations. Contact: nanosolutionshq@gmail.com
+
+Key facts:
+
+- BrightLocal's 2026 survey found that 45% of consumers use generative AI tools for local-business recommendations.
+- SOCi's 2026 Local Visibility Index found that ChatGPT recommended 1.2% of brand locations across 2,751 multi-location brands.
+- AI assistants can surface different businesses for the same local need, so visibility in one platform does not guarantee visibility in another.
+- We make no ranking guarantees. AI answers change across platforms and over time; Nano Solutions provides a dated diagnosis and prioritized recommendations.
+
+## Services
+
+- [Free AI-visibility check](https://nanosolutionshq.github.io/#free-check): a concise review of current visibility across the major AI assistants for a business and its market. Free.
+- [How it works](https://nanosolutionshq.github.io/#how-it-works): free check → full audit with platform-by-platform findings and priorities → optional implementation and follow-up review.
+- [Proof — the four-city test](https://nanosolutionshq.github.io/#proof): live cross-engine study results showing no cross-engine consensus.
+- [Study 01 — full article](https://nanosolutionshq.github.io/study): a point-in-time comparison of public AI recommendations across four Arizona markets, with a four-assistant Gilbert result and independent market-context citations.
+- [Sample AI-visibility audit](https://nanosolutionshq.github.io/sample-audit): a seven-page, clearly fictional example showing the deliverable's executive diagnosis, plain-English findings, customer impact, and outcome-level roadmap. Illustrative figures only; private methods and client evidence are withheld.
+- [Sample audit PDF](https://nanosolutionshq.github.io/assets/sample/nano-solutions-sample-ai-visibility-audit.pdf): downloadable version of the public sample.
+
+## FAQ
+
+- [Frequently asked questions](https://nanosolutionshq.github.io/#faq): AEO vs SEO, why no one can guarantee AI rankings, timelines (audit delivery in 3–5 days; visibility-change timing varies by platform and market), and what we need from you.
+
+## Contact
+
+- Email: nanosolutionshq@gmail.com
+- Website: https://nanosolutionshq.github.io/
+- [Privacy](https://nanosolutionshq.github.io/privacy): plain-language information about anonymous analytics and contact-request handling.

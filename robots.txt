@@ -1,0 +1,50 @@
+# Nano Solutions — robots.txt
+# All crawlers are welcome. AI crawlers are named explicitly on purpose:
+# this site is built to be read, cited, and recommended by AI engines.
+
+User-agent: *
+Allow: /
+
+# --- OpenAI ---
+User-agent: GPTBot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+# --- Anthropic ---
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-User
+Allow: /
+
+User-agent: Claude-SearchBot
+Allow: /
+
+# --- Perplexity ---
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Perplexity-User
+Allow: /
+
+# --- Google (AI training / Gemini grounding) ---
+User-agent: Google-Extended
+Allow: /
+
+# --- Apple ---
+User-agent: Applebot
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+# --- Common Crawl (feeds many models) ---
+User-agent: CCBot
+Allow: /
+
+Sitemap: https://nanosolutionshq.github.io/sitemap.xml

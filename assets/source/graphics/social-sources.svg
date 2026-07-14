@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1350" viewBox="0 0 1080 1350" role="img" aria-labelledby="title desc">
+  <title id="title">Why AI answers differ</title>
+  <desc id="desc">A visual showing how visibility and competitors can vary across AI assistants.</desc>
+  <defs>
+    <pattern id="grid" width="42" height="42" patternUnits="userSpaceOnUse">
+      <path d="M42 0H0V42" fill="none" stroke="#8A93A0" stroke-opacity=".10" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="1080" height="1350" fill="#F7F8FA"/>
+  <rect width="1080" height="1350" fill="url(#grid)"/>
+  <g transform="translate(64 54) scale(.5)">
+    <path fill="#14161A" d="M16 80V32h17v8c6-7 14-11 24-11 19 0 29 12 29 31v20H69V62c0-12-5-17-15-17-13 0-21 8-21 22v13H16Z"/>
+    <circle cx="102" cy="72" r="8" fill="#22D3EE"/>
+  </g>
+  <text x="132" y="94" fill="#14161A" font-family="Segoe UI, Arial, sans-serif" font-size="27" font-weight="700">Nano Solutions</text>
+  <text x="64" y="205" fill="#22D3EE" font-family="Segoe UI, Arial, sans-serif" font-size="19" font-weight="750" letter-spacing="3.2">AI VISIBILITY IS UNEVEN</text>
+  <text x="64" y="300" fill="#14161A" font-family="Segoe UI, Arial, sans-serif" font-size="68" font-weight="750" letter-spacing="-2.3">One market. Different answers.</text>
+  <text x="64" y="353" fill="#8A93A0" font-family="Segoe UI, Arial, sans-serif" font-size="23">Your competitive set can change by platform.</text>
+  <g stroke="#8A93A0" stroke-opacity=".45" stroke-width="2" fill="none">
+    <path d="M352 552 455 635M728 552 625 635M352 951 455 868M728 951 625 868"/>
+  </g>
+  <g font-family="Segoe UI, Arial, sans-serif">
+    <g transform="translate(64 458)">
+      <rect width="368" height="170" rx="22" fill="#22272F"/>
+      <circle cx="34" cy="38" r="7" fill="#22D3EE"/>
+      <text x="58" y="45" fill="#8A93A0" font-size="17" font-weight="750" letter-spacing="1.7">ASSISTANT 01</text>
+      <text x="34" y="100" fill="#F7F8FA" font-size="30" font-weight="680">Visibility detected</text>
+      <text x="34" y="137" fill="#8A93A0" font-size="19">Your business appears</text>
+    </g>
+    <g transform="translate(648 458)">
+      <rect width="368" height="170" rx="22" fill="#22272F"/>
+      <circle cx="34" cy="38" r="7" fill="#22D3EE"/>
+      <text x="58" y="45" fill="#8A93A0" font-size="17" font-weight="750" letter-spacing="1.7">ASSISTANT 02</text>
+      <text x="34" y="100" fill="#F7F8FA" font-size="30" font-weight="680">Competitor surfaced</text>
+      <text x="34" y="137" fill="#8A93A0" font-size="19">A different winner appears</text>
+    </g>
+    <g transform="translate(64 914)">
+      <rect width="368" height="170" rx="22" fill="#22272F"/>
+      <circle cx="34" cy="38" r="7" fill="#22D3EE"/>
+      <text x="58" y="45" fill="#8A93A0" font-size="17" font-weight="750" letter-spacing="1.7">ASSISTANT 03</text>
+      <text x="34" y="100" fill="#F7F8FA" font-size="30" font-weight="680">No clear mention</text>
+      <text x="34" y="137" fill="#8A93A0" font-size="19">A visibility gap remains</text>
+    </g>
+    <g transform="translate(648 914)">
+      <rect width="368" height="170" rx="22" fill="#22272F"/>
+      <circle cx="34" cy="38" r="7" fill="#22D3EE"/>
+      <text x="58" y="45" fill="#8A93A0" font-size="17" font-weight="750" letter-spacing="1.7">ASSISTANT 04</text>
+      <text x="34" y="100" fill="#F7F8FA" font-size="30" font-weight="680">Another top pick</text>
+      <text x="34" y="137" fill="#8A93A0" font-size="19">The market shifts again</text>
+    </g>
+    <g transform="translate(390 590)">
+      <circle cx="150" cy="150" r="147" fill="#14161A"/>
+      <circle cx="150" cy="150" r="115" fill="none" stroke="#8A93A0" stroke-opacity=".35" stroke-width="2"/>
+      <circle cx="150" cy="150" r="80" fill="none" stroke="#8A93A0" stroke-opacity=".25" stroke-width="2"/>
+      <path d="M150 3a147 147 0 0 1 143 114" fill="none" stroke="#22D3EE" stroke-width="6" stroke-linecap="round"/>
+      <circle cx="292" cy="117" r="7" fill="#22D3EE"/>
+      <text x="150" y="132" text-anchor="middle" fill="#8A93A0" font-size="17" font-weight="750" letter-spacing="2">LOCAL BUSINESS</text>
+      <text x="150" y="172" text-anchor="middle" fill="#F7F8FA" font-size="30" font-weight="700">VISIBILITY</text>
+    </g>
+  </g>
+  <text x="64" y="1186" fill="#14161A" font-family="Segoe UI, Arial, sans-serif" font-size="29" font-weight="700">Different platforms → different consideration sets.</text>
+  <text x="64" y="1230" fill="#8A93A0" font-family="Segoe UI, Arial, sans-serif" font-size="21">The audit measures where you appear, where you do not, and who appears instead.</text>
+  <text x="64" y="1292" fill="#8A93A0" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="600" letter-spacing="1.2">PLATFORM-BY-PLATFORM DIAGNOSIS · NO RANKING GUARANTEE</text>
+</svg>

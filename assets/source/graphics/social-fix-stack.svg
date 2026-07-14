@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1350" viewBox="0 0 1080 1350" role="img" aria-labelledby="title desc">
+  <title id="title">What an AI-visibility audit clarifies</title>
+  <desc id="desc">A customer-facing summary of the visibility findings, competitor context, priorities, and action plan included in an audit.</desc>
+  <defs>
+    <pattern id="grid" width="42" height="42" patternUnits="userSpaceOnUse">
+      <path d="M42 0H0V42" fill="none" stroke="#8A93A0" stroke-opacity=".07" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="1080" height="1350" fill="#14161A"/>
+  <rect width="1080" height="1350" fill="url(#grid)"/>
+  <g fill="none" stroke="#8A93A0" stroke-opacity=".15" stroke-width="2">
+    <circle cx="1010" cy="90" r="280"/>
+    <circle cx="1010" cy="90" r="205"/>
+    <circle cx="1010" cy="90" r="130"/>
+  </g>
+  <path d="M1010-190a280 280 0 0 1 272 216" fill="none" stroke="#22D3EE" stroke-width="6" stroke-linecap="round"/>
+  <g transform="translate(64 54) scale(.5)">
+    <path fill="#F7F8FA" d="M16 80V32h17v8c6-7 14-11 24-11 19 0 29 12 29 31v20H69V62c0-12-5-17-15-17-13 0-21 8-21 22v13H16Z"/>
+    <circle cx="102" cy="72" r="8" fill="#22D3EE"/>
+  </g>
+  <text x="132" y="94" fill="#F7F8FA" font-family="Segoe UI, Arial, sans-serif" font-size="27" font-weight="700">Nano Solutions</text>
+  <text x="64" y="205" fill="#22D3EE" font-family="Segoe UI, Arial, sans-serif" font-size="19" font-weight="750" letter-spacing="3.2">PLAIN-ENGLISH FINDINGS</text>
+  <text x="64" y="300" fill="#F7F8FA" font-family="Segoe UI, Arial, sans-serif" font-size="66" font-weight="750" letter-spacing="-2.2">What your audit clarifies</text>
+  <text x="64" y="351" fill="#8A93A0" font-family="Segoe UI, Arial, sans-serif" font-size="22">A diagnosis you can act on—without a black-box score.</text>
+  <g font-family="Segoe UI, Arial, sans-serif">
+    <g transform="translate(64 414)">
+      <rect width="952" height="142" rx="22" fill="#22272F" stroke="#8A93A0" stroke-opacity=".24"/>
+      <text x="32" y="57" fill="#22D3EE" font-size="24" font-weight="800">01</text>
+      <text x="96" y="54" fill="#F7F8FA" font-size="29" font-weight="700">Where you appear</text>
+      <text x="96" y="94" fill="#8A93A0" font-size="19">A platform-by-platform visibility snapshot.</text>
+    </g>
+    <g transform="translate(64 576)">
+      <rect width="952" height="142" rx="22" fill="#22272F" stroke="#8A93A0" stroke-opacity=".24"/>
+      <text x="32" y="57" fill="#22D3EE" font-size="24" font-weight="800">02</text>
+      <text x="96" y="54" fill="#F7F8FA" font-size="29" font-weight="700">Where you do not</text>
+      <text x="96" y="94" fill="#8A93A0" font-size="19">The visibility gaps hidden by a single-platform view.</text>
+    </g>
+    <g transform="translate(64 738)">
+      <rect width="952" height="142" rx="22" fill="#22272F" stroke="#8A93A0" stroke-opacity=".24"/>
+      <text x="32" y="57" fill="#22D3EE" font-size="24" font-weight="800">03</text>
+      <text x="96" y="54" fill="#F7F8FA" font-size="29" font-weight="700">Who appears instead</text>
+      <text x="96" y="94" fill="#8A93A0" font-size="19">Your real competitive set across AI assistants.</text>
+    </g>
+    <g transform="translate(64 900)">
+      <rect width="952" height="142" rx="22" fill="#22272F" stroke="#8A93A0" stroke-opacity=".24"/>
+      <text x="32" y="57" fill="#22D3EE" font-size="24" font-weight="800">04</text>
+      <text x="96" y="54" fill="#F7F8FA" font-size="29" font-weight="700">Which gaps matter</text>
+      <text x="96" y="94" fill="#8A93A0" font-size="19">Evidence-backed priorities, not generic advice.</text>
+    </g>
+    <g transform="translate(64 1062)">
+      <rect width="952" height="142" rx="22" fill="#22272F" stroke="#8A93A0" stroke-opacity=".24"/>
+      <text x="32" y="57" fill="#22D3EE" font-size="24" font-weight="800">05</text>
+      <text x="96" y="54" fill="#F7F8FA" font-size="29" font-weight="700">What to do first</text>
+      <text x="96" y="94" fill="#8A93A0" font-size="19">A clear action plan in priority order.</text>
+    </g>
+  </g>
+  <text x="64" y="1267" fill="#8A93A0" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="650" letter-spacing="1.2">PRIORITIES VARY BY MARKET · NO RANKING GUARANTEES</text>
+</svg>
