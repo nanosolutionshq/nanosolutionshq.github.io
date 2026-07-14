@@ -2,6 +2,8 @@
 
 ## Public proof, privacy &amp; measurement
 
+- Self-hosted Inter and IBM Plex Mono across every page and the public sample, removing Google Fonts as a third-party rendering dependency.
+- Added a branded, noindexed 404 recovery page that preserves real 404 responses, uses root-safe assets, omits analytics, and never echoes the missing URL.
 - Added a seven-page responsive sample audit plus a print-ready PDF using a clearly fictional business, illustrative values, and outcome-level guidance only.
 - Added a homepage sample-preview section so prospective clients can judge the deliverable without exposing private evidence or repeatable diagnostic procedures.
 - Removed unlinked internal report templates, rendered demos, and obsolete Study artwork that were still directly reachable despite not appearing in site navigation.
