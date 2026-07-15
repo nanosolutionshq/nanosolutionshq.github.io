@@ -8,6 +8,7 @@
 - Centered single-axis section headings and the final call to action, top-aligned and rhythmically spaced the Study 01 proof columns, and aligned the statistics source note with the full card grid.
 - Refined hero microcopy so only `human` is emphasized and presented `+ more` as a consistent platform pill.
 - Optically aligned the `n.`/Nano header lockup, contained the scan rings within their diagnostic bay, and centered the free-check form action and privacy note.
+- Added a restrained diagnostic motion system: short hero and form entrances, one-shot signal cues, progressive section reveals, polished link/button feedback, and a complete reduced-motion fallback.
 
 ## Review summary
 
