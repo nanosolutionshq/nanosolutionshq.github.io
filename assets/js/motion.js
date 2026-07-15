@@ -16,23 +16,49 @@
   }
 
   const activeAnimations = new Set();
-  const distance = window.innerWidth < 700 ? 6 : 12;
+  const revealedTargets = new WeakSet();
+  const mobile = window.innerWidth < 700;
+  const verticalDistance = mobile ? 10 : 22;
+  const horizontalDistance = mobile ? 0 : 28;
+  const scaleStart = mobile ? 0.98 : 0.96;
+  const duration = mobile ? 540 : 620;
+
+  const startTransform = (target) => {
+    switch (target.dataset.reveal) {
+      case "left":
+        return mobile
+          ? `translate3d(0, ${verticalDistance}px, 0)`
+          : `translate3d(-${horizontalDistance}px, 0, 0)`;
+      case "right":
+        return mobile
+          ? `translate3d(0, ${verticalDistance}px, 0)`
+          : `translate3d(${horizontalDistance}px, 0, 0)`;
+      case "scale":
+        return `translate3d(0, ${mobile ? 10 : 18}px, 0) scale(${scaleStart})`;
+      default:
+        return `translate3d(0, ${verticalDistance}px, 0)`;
+    }
+  };
 
   const reveal = (target) => {
-    const delay = Math.min(Number(target.dataset.revealDelay) || 0, 180);
-    const scaled = target.dataset.reveal === "scale";
+    if (revealedTargets.has(target)) {
+      return;
+    }
+
+    revealedTargets.add(target);
+    const delay = Math.min(Number(target.dataset.revealDelay) || 0, 220);
     const animation = target.animate(
       [
         {
-          opacity: 0,
-          transform: `translate3d(0, ${distance}px, 0)${scaled ? " scale(0.992)" : ""}`
+          opacity: 0.05,
+          transform: startTransform(target)
         },
         { opacity: 1, transform: "translate3d(0, 0, 0) scale(1)" }
       ],
       {
-        duration: 460,
+        duration,
         delay,
-        easing: "cubic-bezier(0.22, 1, 0.36, 1)",
+        easing: "cubic-bezier(0.16, 1, 0.3, 1)",
         fill: "both"
       }
     );
@@ -56,14 +82,21 @@
         reveal(entry.target);
       });
     },
-    { rootMargin: "0px 0px 96px 0px", threshold: 0.01 }
+    { rootMargin: "0px 0px -6% 0px", threshold: 0.08 }
   );
 
   targets.forEach((target) => observer.observe(target));
 
   document.addEventListener("focusin", (event) => {
     const target = event.target.closest?.("[data-reveal]");
-    target?.getAnimations().forEach((animation) => animation.finish());
+
+    if (!target) {
+      return;
+    }
+
+    observer.unobserve(target);
+    revealedTargets.add(target);
+    target.getAnimations().forEach((animation) => animation.finish());
   });
 
   const stopMotion = (event) => {

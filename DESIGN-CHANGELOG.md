@@ -9,6 +9,7 @@
 - Refined hero microcopy so only `human` is emphasized and presented `+ more` as a consistent platform pill.
 - Optically aligned the `n.`/Nano header lockup, contained the scan rings within their diagnostic bay, and centered the free-check form action and privacy note.
 - Added a restrained diagnostic motion system: short hero and form entrances, one-shot signal cues, progressive section reveals, polished link/button feedback, and a complete reduced-motion fallback.
+- Retuned motion for clearer visibility: stronger hero settling, a dual-layer live radar, directional in-viewport section reveals, longer card choreography, and more legible interaction feedback.
 
 ## Review summary
 
