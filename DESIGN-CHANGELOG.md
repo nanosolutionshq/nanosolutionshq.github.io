@@ -5,8 +5,9 @@
 - Made `Nano` the primary public-facing name across page chrome, metadata, social previews, the sample report, and downloadable assets; retained `Nano Solutions` only as an alternate organization identity for entity continuity.
 - Removed the duplicate homepage form and made `/free-check/` the single focused request experience.
 - Rebalanced the free-check desktop layout to prevent headline collisions, align the form and outcome panels, and stack earlier on narrower screens.
-- Centered single-axis section headings and the final call to action, matched the Study 01 proof columns, and aligned the statistics source note with the full card grid.
+- Centered single-axis section headings and the final call to action, top-aligned and rhythmically spaced the Study 01 proof columns, and aligned the statistics source note with the full card grid.
 - Refined hero microcopy so only `human` is emphasized and presented `+ more` as a consistent platform pill.
+- Optically aligned the `n.`/Nano header lockup, contained the scan rings within their diagnostic bay, and centered the free-check form action and privacy note.
 
 ## Review summary
 

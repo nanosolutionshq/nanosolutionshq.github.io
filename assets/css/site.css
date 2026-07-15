@@ -127,11 +127,12 @@ a:hover {
 .wordmark {
   display: inline-flex;
   align-items: center;
-  gap: 11px;
+  gap: 6px;
   color: var(--paper);
   font-size: 1rem;
   font-weight: 650;
   letter-spacing: -0.02em;
+  line-height: 1;
   text-decoration: none;
 }
 
@@ -144,6 +145,12 @@ a:hover {
   width: 38px;
   height: 38px;
   flex: none;
+}
+
+.wordmark .brand-mark {
+  width: 38px;
+  height: 32px;
+  transform: translateY(-2px);
 }
 
 .site-nav {
@@ -440,17 +447,18 @@ h2 {
 
 .scan-rings {
   position: relative;
-  width: 158px;
+  width: 100px;
   aspect-ratio: 1;
   display: grid;
   place-items: center;
   border: 1px solid rgba(34, 211, 238, 0.46);
   border-radius: 50%;
   box-shadow:
-    0 0 0 30px rgba(34, 211, 238, 0.055),
-    0 0 0 31px rgba(34, 211, 238, 0.15),
-    0 0 0 60px rgba(34, 211, 238, 0.025),
-    0 0 0 61px rgba(34, 211, 238, 0.09);
+    0 0 0 16px rgba(34, 211, 238, 0.055),
+    0 0 0 17px rgba(34, 211, 238, 0.15),
+    0 0 0 32px rgba(34, 211, 238, 0.025),
+    0 0 0 33px rgba(34, 211, 238, 0.09);
+  transform: translateY(-7px);
 }
 
 .scan-rings::after {
@@ -466,8 +474,8 @@ h2 {
 }
 
 .scan-core {
-  width: 66px;
-  height: 66px;
+  width: 58px;
+  height: 58px;
   padding: 6px;
   background: var(--ink);
   border: 1px solid var(--line-dark);
@@ -664,13 +672,20 @@ section {
   display: grid;
   grid-template-columns: minmax(0, 1fr) minmax(390px, 0.96fr);
   gap: clamp(48px, 6vw, 68px);
-  align-items: stretch;
+  align-items: start;
 }
 
 .proof-layout > div {
-  display: flex;
+  display: block;
   min-width: 0;
-  flex-direction: column;
+}
+
+#proof .section-head {
+  margin-bottom: 28px;
+}
+
+#proof .section-head h2 {
+  margin: 0;
 }
 
 #proof h2 {
@@ -679,6 +694,7 @@ section {
 
 .proof-lead {
   max-width: 42ch;
+  margin: 0;
   color: rgba(247, 248, 250, 0.84);
   font-size: clamp(1.15rem, 2vw, 1.34rem);
   font-weight: 430;
@@ -692,7 +708,7 @@ section {
 
 .proof-body {
   max-width: 58ch;
-  margin-top: 22px;
+  margin: 20px 0 0;
   color: rgba(247, 248, 250, 0.76);
 }
 
@@ -701,6 +717,14 @@ section {
   gap: 30px;
   margin-top: 34px;
   flex-wrap: wrap;
+}
+
+.proof-outcomes {
+  display: grid;
+  width: 100%;
+  margin-top: 28px;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 24px;
 }
 
 .fig {
@@ -724,7 +748,7 @@ section {
 }
 
 .proof-outcomes .fig {
-  max-width: 160px;
+  max-width: none;
 }
 
 .proof-outcomes .n {
@@ -736,38 +760,36 @@ section {
 
 .study-link {
   display: inline-flex;
-  align-self: flex-start;
-  margin-top: auto;
-  padding-top: 32px;
+  margin-top: 30px;
   color: var(--paper);
   font-weight: 600;
   text-decoration-color: var(--cyan);
 }
 
 .proof-data {
-  display: flex;
+  display: block;
   padding: 24px;
-  flex-direction: column;
+  align-self: start;
   background: rgba(20, 22, 26, 0.66);
   border: 1px solid var(--line-dark);
   border-radius: 14px;
 }
 
 .proof-data .panel-bar {
-  padding-bottom: 18px;
+  padding-bottom: 16px;
 }
 
 .answer-matrix {
   display: grid;
-  flex: 1;
   margin: 0;
 }
 
 .answer-row {
   display: grid;
   grid-template-columns: minmax(112px, 0.72fr) minmax(0, 1.28fr);
+  align-items: center;
   gap: 16px;
-  padding: 18px 2px;
+  padding: 16px 2px;
   border-bottom: 1px solid var(--line-dark);
 }
 
@@ -802,8 +824,7 @@ section {
 }
 
 .proof-data-note {
-  margin: auto 0 0;
-  padding-top: 18px;
+  margin: 16px 0 0;
   color: var(--gray);
   font-size: 0.78rem;
 }
@@ -1277,7 +1298,7 @@ section {
 
 .form-card h2 {
   max-width: 18ch;
-  margin-bottom: 14px;
+  margin: 0 0 14px;
 }
 
 .form-card .form-sub {
@@ -1491,6 +1512,25 @@ section {
 
 .check-landing .form-card h2 {
   max-width: 20ch;
+}
+
+.check-landing .form-actions {
+  align-items: center;
+  flex-direction: column;
+  gap: 14px;
+  text-align: center;
+}
+
+.check-landing .form-actions .btn {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.check-landing .form-actions .micro {
+  width: 100%;
+  max-width: 48ch;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .check-expect {
@@ -2203,6 +2243,12 @@ body.thank-you {
     height: 34px;
   }
 
+  .wordmark .brand-mark {
+    width: 34px;
+    height: 29px;
+    transform: translateY(-1px);
+  }
+
   .site-nav .btn.small {
     min-height: 38px;
     padding: 8px 12px;
@@ -2243,6 +2289,21 @@ body.thank-you {
   .scan-panel {
     min-height: 390px;
     padding: 18px;
+  }
+
+  .scan-rings {
+    width: 88px;
+    box-shadow:
+      0 0 0 14px rgba(34, 211, 238, 0.055),
+      0 0 0 15px rgba(34, 211, 238, 0.15),
+      0 0 0 28px rgba(34, 211, 238, 0.025),
+      0 0 0 29px rgba(34, 211, 238, 0.09);
+    transform: translateY(-20px);
+  }
+
+  .scan-core {
+    width: 54px;
+    height: 54px;
   }
 
   .panel-bar {
@@ -2347,6 +2408,11 @@ body.thank-you {
 }
 
 @media (max-width: 560px) {
+  .proof-outcomes {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+
   .study-summary,
   .study-results {
     grid-template-columns: 1fr;
