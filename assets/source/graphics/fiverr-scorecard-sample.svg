@@ -13,7 +13,7 @@
     <path fill="#F7F8FA" d="M16 80V32h17v8c6-7 14-11 24-11 19 0 29 12 29 31v20H69V62c0-12-5-17-15-17-13 0-21 8-21 22v13H16Z"/>
     <circle cx="102" cy="72" r="8" fill="#22D3EE"/>
   </g>
-  <text x="108" y="66" fill="#F7F8FA" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="700">Nano Solutions</text>
+  <text x="108" y="66" fill="#F7F8FA" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="700">Nano</text>
   <rect x="906" y="30" width="326" height="54" rx="27" fill="#22D3EE"/>
   <text x="946" y="64" fill="#14161A" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="800" letter-spacing="1.8">SAMPLE / ILLUSTRATIVE</text>
   <text x="48" y="181" fill="#22D3EE" font-family="Segoe UI, Arial, sans-serif" font-size="17" font-weight="750" letter-spacing="2.7">DELIVERABLE PREVIEW</text>

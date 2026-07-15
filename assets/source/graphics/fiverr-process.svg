@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1280" height="769" viewBox="0 0 1280 769" role="img" aria-labelledby="title desc">
-  <title id="title">Nano Solutions audit process</title>
+  <title id="title">Nano audit process</title>
   <desc id="desc">Free check, full audit, and optional done-for-you fixes.</desc>
   <defs>
     <pattern id="grid" width="38" height="38" patternUnits="userSpaceOnUse">
@@ -18,7 +18,7 @@
     <path fill="#F7F8FA" d="M16 80V32h17v8c6-7 14-11 24-11 19 0 29 12 29 31v20H69V62c0-12-5-17-15-17-13 0-21 8-21 22v13H16Z"/>
     <circle cx="102" cy="72" r="8" fill="#22D3EE"/>
   </g>
-  <text x="116" y="75" fill="#F7F8FA" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="700">Nano Solutions</text>
+  <text x="116" y="75" fill="#F7F8FA" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="700">Nano</text>
   <text x="56" y="158" fill="#22D3EE" font-family="Segoe UI, Arial, sans-serif" font-size="17" font-weight="750" letter-spacing="2.8">CLIENT-FRIENDLY PROCESS</text>
   <text x="56" y="222" fill="#F7F8FA" font-family="Segoe UI, Arial, sans-serif" font-size="48" font-weight="750" letter-spacing="-1.7">From visibility check to action plan.</text>
   <text x="56" y="258" fill="#8A93A0" font-family="Segoe UI, Arial, sans-serif" font-size="20">Start small. Keep the findings. Choose whether implementation continues.</text>

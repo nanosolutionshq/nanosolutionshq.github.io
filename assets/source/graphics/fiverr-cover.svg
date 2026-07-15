@@ -18,7 +18,7 @@
     <path fill="#F7F8FA" d="M16 80V32h17v8c6-7 14-11 24-11 19 0 29 12 29 31v20H69V62c0-12-5-17-15-17-13 0-21 8-21 22v13H16Z"/>
     <circle cx="102" cy="72" r="8" fill="#22D3EE"/>
   </g>
-  <text x="130" y="84" fill="#F7F8FA" font-family="Segoe UI, Arial, sans-serif" font-size="25" font-weight="700">Nano Solutions</text>
+  <text x="130" y="84" fill="#F7F8FA" font-family="Segoe UI, Arial, sans-serif" font-size="25" font-weight="700">Nano</text>
   <text x="64" y="171" fill="#22D3EE" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="750" letter-spacing="3.2">AI-VISIBILITY AUDIT</text>
   <text x="64" y="259" fill="#F7F8FA" font-family="Segoe UI, Arial, sans-serif" font-size="62" font-weight="750" letter-spacing="-2.1">Does AI recommend</text>
   <text x="64" y="328" fill="#F7F8FA" font-family="Segoe UI, Arial, sans-serif" font-size="62" font-weight="750" letter-spacing="-2.1">your business?</text>

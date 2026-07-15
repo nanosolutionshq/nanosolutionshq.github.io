@@ -1,4 +1,4 @@
-# Nano Solutions — robots.txt
+# Nano — robots.txt
 # All crawlers are welcome. AI crawlers are named explicitly on purpose:
 # this site is built to be read, cited, and recommended by AI engines.
 

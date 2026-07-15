@@ -1,4 +1,4 @@
-/* Nano Solutions — shared visual system
+/* Nano — shared visual system
    Brand tokens are intentionally limited to Ink, Slate, Cyan, Paper, and Gray. */
 
 :root {
@@ -373,15 +373,6 @@ h2 {
   font-weight: 520;
 }
 
-.engines .engine-more {
-  margin-left: 4px;
-  color: var(--cyan);
-  font-family: "IBM Plex Mono", ui-monospace, monospace;
-  font-size: 0.72rem;
-  font-weight: 650;
-  letter-spacing: 0.02em;
-}
-
 /* Diagnostic hero panel */
 
 .scan-panel {
@@ -574,7 +565,13 @@ section {
 .stats .section-head {
   display: flex;
   align-items: end;
-  justify-content: space-between;
+  justify-content: center;
+  text-align: center;
+}
+
+.stats .section-head h2 {
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .stat-grid {
@@ -620,7 +617,8 @@ section {
 }
 
 .stat-note {
-  max-width: 105ch;
+  max-width: none;
+  width: 100%;
   margin-top: 22px;
   color: rgba(20, 22, 26, 0.66);
   font-size: 0.74rem;
@@ -666,7 +664,13 @@ section {
   display: grid;
   grid-template-columns: minmax(0, 1fr) minmax(390px, 0.96fr);
   gap: clamp(48px, 6vw, 68px);
-  align-items: start;
+  align-items: stretch;
+}
+
+.proof-layout > div {
+  display: flex;
+  min-width: 0;
+  flex-direction: column;
 }
 
 #proof h2 {
@@ -732,14 +736,18 @@ section {
 
 .study-link {
   display: inline-flex;
-  margin-top: 32px;
+  align-self: flex-start;
+  margin-top: auto;
+  padding-top: 32px;
   color: var(--paper);
   font-weight: 600;
   text-decoration-color: var(--cyan);
 }
 
 .proof-data {
+  display: flex;
   padding: 24px;
+  flex-direction: column;
   background: rgba(20, 22, 26, 0.66);
   border: 1px solid var(--line-dark);
   border-radius: 14px;
@@ -751,6 +759,7 @@ section {
 
 .answer-matrix {
   display: grid;
+  flex: 1;
   margin: 0;
 }
 
@@ -793,7 +802,8 @@ section {
 }
 
 .proof-data-note {
-  margin: 18px 0 0;
+  margin: auto 0 0;
+  padding-top: 18px;
   color: var(--gray);
   font-size: 0.78rem;
 }
@@ -1066,6 +1076,19 @@ section {
   background: var(--paper);
 }
 
+#how-it-works .section-head,
+#faq .section-head,
+.check-faq .section-head {
+  text-align: center;
+}
+
+#how-it-works .section-head h2,
+#faq .section-head h2,
+.check-faq .section-head h2 {
+  margin-right: auto;
+  margin-left: auto;
+}
+
 .steps {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -1191,14 +1214,18 @@ section {
 .honesty {
   background: var(--ink);
   color: var(--paper);
-  text-align: left;
+  text-align: center;
+}
+
+.honesty .wrap {
+  width: min(100% - 48px, 900px);
 }
 
 .honesty-lead {
-  max-width: 24ch;
-  margin: 0;
-  padding-left: 26px;
-  border-left: 3px solid var(--cyan);
+  position: relative;
+  max-width: none;
+  margin: 0 auto;
+  padding-top: 24px;
   color: var(--paper);
   font-size: clamp(1.9rem, 3.4vw, 2.8rem);
   font-weight: 620;
@@ -1206,13 +1233,27 @@ section {
   line-height: 1.1;
 }
 
+.honesty-lead::before {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 32px;
+  height: 3px;
+  background: var(--cyan);
+  content: "";
+  transform: translateX(-50%);
+}
+
 .honesty-copy {
   max-width: 66ch;
-  margin: 18px 0 0;
-  padding-left: 29px;
+  margin: 18px auto 0;
   color: rgba(247, 248, 250, 0.78);
   font-size: 1.02rem;
   line-height: 1.7;
+}
+
+.honesty .cta-row {
+  justify-content: center;
 }
 
 /* Form */
@@ -1371,10 +1412,10 @@ section {
 }
 
 .check-landing-intro h1 {
-  max-width: 12ch;
+  max-width: 100%;
   margin: 0;
   color: var(--paper);
-  font-size: clamp(2.65rem, 4.9vw, 4.35rem);
+  font-size: clamp(2.65rem, 4.2vw, 3.85rem);
   font-weight: 570;
   letter-spacing: -0.058em;
   line-height: 0.98;
@@ -1425,15 +1466,25 @@ section {
   grid-template-areas:
     "intro form"
     "expect form";
-  grid-template-columns: minmax(0, 0.92fr) minmax(0, 1.08fr);
-  gap: 24px 28px;
-  align-items: start;
+  grid-template-columns: minmax(0, 1fr) minmax(520px, 1.06fr);
+  grid-template-rows: auto 1fr;
+  column-gap: 36px;
+  row-gap: 24px;
+  align-items: stretch;
+}
+
+.check-landing-intro,
+.check-landing .form-card,
+.check-expect {
+  min-width: 0;
 }
 
 .check-landing .form-card {
   grid-area: form;
   width: auto;
   margin: 0;
+  padding: clamp(34px, 4vw, 48px);
+  align-self: stretch;
   color: var(--ink);
   box-shadow: 0 34px 84px rgba(0, 0, 0, 0.24);
 }
@@ -1446,7 +1497,8 @@ section {
   position: relative;
   grid-area: expect;
   overflow: hidden;
-  padding: clamp(28px, 4vw, 40px);
+  padding: 28px 32px;
+  align-self: stretch;
   background: var(--ink);
   border: 1px solid var(--line-dark);
   border-radius: 14px;
@@ -1475,17 +1527,17 @@ section {
 }
 
 .check-expect h2 {
-  max-width: 13ch;
+  max-width: none;
   margin: 0;
   color: var(--paper);
-  font-size: clamp(1.7rem, 3vw, 2.35rem);
+  font-size: clamp(1.7rem, 2.4vw, 2rem);
   font-weight: 590;
   letter-spacing: -0.045em;
   line-height: 1.08;
 }
 
 .check-expect ul {
-  margin: 30px 0 0;
+  margin: 18px 0 0;
   padding: 0;
   border-top: 1px solid var(--line-dark);
   list-style: none;
@@ -1493,8 +1545,10 @@ section {
 
 .check-expect li {
   display: grid;
-  gap: 5px;
-  padding: 18px 0;
+  grid-template-columns: 92px minmax(0, 1fr);
+  align-items: baseline;
+  gap: 14px;
+  padding: 10px 0;
   border-bottom: 1px solid var(--line-dark);
 }
 
@@ -1508,14 +1562,15 @@ section {
 
 .check-expect li span {
   color: rgba(247, 248, 250, 0.76);
-  line-height: 1.55;
+  font-size: 0.9rem;
+  line-height: 1.45;
 }
 
 .check-expect-note {
-  margin: 26px 0 0;
+  margin: 16px 0 0;
   color: rgba(247, 248, 250, 0.7);
-  font-size: 0.9rem;
-  line-height: 1.65;
+  font-size: 0.83rem;
+  line-height: 1.5;
 }
 
 .check-expect-note strong {
@@ -1524,8 +1579,9 @@ section {
 
 .check-expect .text-link {
   display: inline-flex;
-  margin-top: 24px;
+  margin-top: 14px;
   color: var(--paper);
+  font-size: 0.9rem;
   font-weight: 650;
   text-decoration-color: var(--cyan);
 }
@@ -2038,23 +2094,34 @@ body.thank-you {
 
 /* Responsive */
 
+@media (max-width: 1060px) {
+  .check-landing-grid {
+    grid-template-areas:
+      "intro"
+      "form"
+      "expect";
+    grid-template-columns: minmax(0, 1fr);
+    grid-template-rows: auto;
+    gap: 32px;
+  }
+
+  .check-landing-intro {
+    max-width: 720px;
+  }
+
+  .check-landing .form-card,
+  .check-expect {
+    width: min(100%, 790px);
+    align-self: start;
+  }
+}
+
 @media (max-width: 920px) {
   .hero .wrap,
   .proof-layout,
   .sample-layout,
   .check-landing-grid {
     grid-template-columns: minmax(0, 1fr);
-  }
-
-  .check-landing-grid {
-    grid-template-areas:
-      "intro"
-      "form"
-      "expect";
-  }
-
-  .check-expect {
-    width: min(100%, 790px);
   }
 
   .hero .wrap {
@@ -2210,6 +2277,15 @@ body.thank-you {
     padding: 20px;
   }
 
+  .check-expect {
+    padding: 24px 20px;
+  }
+
+  .check-expect li {
+    grid-template-columns: 1fr;
+    gap: 4px;
+  }
+
   .answer-row {
     grid-template-columns: 1fr;
     gap: 5px;
@@ -2258,11 +2334,11 @@ body.thank-you {
   }
 
   .honesty-lead {
-    padding-left: 20px;
+    padding-left: 0;
   }
 
   .honesty-copy {
-    padding-left: 23px;
+    padding-left: 0;
   }
 
   body.thank-you {

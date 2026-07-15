@@ -1,7 +1,7 @@
 {
-  "name": "Nano Solutions",
-  "short_name": "Nano Solutions",
-  "description": "AI-visibility audits for local businesses.",
+  "name": "Nano",
+  "short_name": "Nano",
+  "description": "AI-visibility audits for businesses across markets.",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#14161A",

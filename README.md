@@ -1,6 +1,6 @@
-# Nano Solutions — AI-visibility audit site
+# Nano — AI-visibility audit site
 
-Static GitHub Pages site and visual-design source for **Nano Solutions**, an AI-search visibility audit service for businesses across markets. The site is designed to be read equally well by buyers, search engines, and AI crawlers.
+Static GitHub Pages site and visual-design source for **Nano**, the public-facing AI-search visibility audit persona associated with Nano Solutions. The service works across business categories and markets, and the site is designed to be read equally well by buyers, search engines, and AI crawlers.
 
 **Live:** https://nanosolutionshq.github.io/
 
@@ -8,7 +8,7 @@ Static GitHub Pages site and visual-design source for **Nano Solutions**, an AI-
 
 | Path | Purpose |
 |---|---|
-| `index.html` | Homepage: diagnostic hero, proof, process, FAQ, lead form |
+| `index.html` | Homepage: diagnostic hero, proof, process, FAQ, and focused calls to action |
 | `free-check/index.html` | Focused, market-neutral landing page for free-check requests |
 | `study.html` | Study 01 article with article-specific social metadata and evidence visual |
 | `sample-audit.html` | Public, seven-page illustrative audit with a downloadable PDF counterpart |
@@ -48,7 +48,7 @@ The free-check form posts to FormSubmit and routes successful requests to the no
 
 ## Public sample audit
 
-`sample-audit.html` is a responsive, semantic seven-page demonstration using a clearly fictional business and illustrative findings. `assets/sample/nano-solutions-sample-ai-visibility-audit.pdf` is its print-ready counterpart. The public sample shows deliverable quality, customer-facing findings, and outcome-level guidance.
+`sample-audit.html` is a responsive, semantic seven-page demonstration using a clearly fictional business and illustrative findings. `assets/sample/nano-sample-ai-visibility-audit.pdf` is its print-ready counterpart; the former filename remains as a compatibility copy. The public sample shows deliverable quality, customer-facing findings, and outcome-level guidance.
 
 ## Analytics and privacy
 
